@@ -1,1 +1,11 @@
-
+{
+  "users": [
+    { "id": 1, "name": "Daria Levytska", "email": "daria@example.com", "role": "developer" },
+    { "id": 2, "name": "Oleh Petrenko", "email": "oleh@example.com", "role": "tester" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Intro to REST API", "userId": 1, "tags": ["api", "rest"] },
+    { "id": 2, "title": "JSON Server Tutorial", "userId": 2, "tags": ["json", "mock"] },
+    { "id": 3, "title": "Postman Testing Guide", "userId": 1, "tags": ["postman", "testing"] }
+  ]
+}
