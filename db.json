@@ -1,11 +1,23 @@
 {
   "users": [
     { "id": 1, "name": "Daria Levytska", "email": "daria@example.com", "role": "developer" },
-    { "id": 2, "name": "Oleh Petrenko", "email": "oleh@example.com", "role": "tester" }
+    { "id": 2, "name": "Oleh Petrenko", "email": "oleh@example.com", "role": "tester" },
+    { "id": 3, "name": "Maria Koval", "email": "maria@example.com", "role": "designer" },
+    { "id": 4, "name": "Andriy Melnyk", "email": "andriy@example.com", "role": "devops" },
+    { "id": 5, "name": "Iryna Boyko", "email": "iryna@example.com", "role": "manager" }
   ],
   "posts": [
-    { "id": 1, "title": "Intro to REST API", "userId": 1, "tags": ["api", "rest"] },
-    { "id": 2, "title": "JSON Server Tutorial", "userId": 2, "tags": ["json", "mock"] },
-    { "id": 3, "title": "Postman Testing Guide", "userId": 1, "tags": ["postman", "testing"] }
+    { "id": 1, "title": "Intro to REST API", "userId": 1, "views": 120, "tags": ["api", "rest"] },
+    { "id": 2, "title": "JSON Server Tutorial", "userId": 2, "views": 85, "tags": ["json", "mock"] },
+    { "id": 3, "title": "Postman Testing Guide", "userId": 1, "views": 250, "tags": ["postman", "testing"] },
+    { "id": 4, "title": "UI/UX Design Basics", "userId": 3, "views": 95, "tags": ["design", "ui"] },
+    { "id": 5, "title": "Docker for Beginners", "userId": 4, "views": 310, "tags": ["devops", "docker"] },
+    { "id": 6, "title": "Agile Sprint Planning", "userId": 5, "views": 140, "tags": ["agile", "management"] }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "userId": 2, "body": "Very helpful article!" },
+    { "id": 2, "postId": 1, "userId": 3, "body": "Thanks for sharing." },
+    { "id": 3, "postId": 3, "userId": 4, "body": "Postman is great for this." },
+    { "id": 4, "postId": 5, "userId": 1, "body": "Containerization rocks." }
   ]
 }
